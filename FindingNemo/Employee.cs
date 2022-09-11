@@ -11,7 +11,7 @@
         {
             string output = name;
 
-            if(name.Length > numberOfChars)
+            if(name.Length >= numberOfChars)
             {
                 output = name[..numberOfChars];
             }
